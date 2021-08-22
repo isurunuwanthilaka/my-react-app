@@ -12,6 +12,9 @@ const App = () => {
       <NavBar />
       <BrowserRouter>
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/home">
             <Home />
           </Route>
